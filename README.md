@@ -41,17 +41,16 @@ Streamlit 기반 UI를 통해 사용자가 웹 환경에서 실시간으로 대�
 
 
 # 📂 프로젝트 구조
-
-\`\`\`
+````
 pill-addict/
- ├── app/
- │   ├── main.py               # FastAPI 서버 (AWS EC2 배포)
- │   ├── ocr_utils.py          # Tesseract OCR 처리 모듈
- │   └── recommender.py        # GPT 기반 추천 및 응답 생성
- ├── frontend/
- │   └── streamlit_app.py      # Streamlit UI
- ├── data/
- │   └── sample_health_check.png
- ├── requirements.txt
- └── README.md
-\`\`\`
+├── app/
+│ ├── main.py # FastAPI 서버 (AWS EC2 배포)
+│ ├── ocr_utils.py # Tesseract OCR 처리 모듈
+│ └── recommender.py # GPT 기반 추천 및 응답 생성
+├── frontend/
+│ └── streamlit_app.py # Streamlit UI
+├── data/
+│ └── sample_health_check.png
+├── requirements.txt
+└── README.md
+````
