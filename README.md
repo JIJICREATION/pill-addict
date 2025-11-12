@@ -39,8 +39,10 @@ Streamlit 기반 UI를 통해 사용자가 웹 환경에서 실시간으로 대�
 
 ---
 
+
 # 📂 프로젝트 구조
 
+\`\`\`
 pill-addict/
  ├── app/
  │   ├── main.py               # FastAPI 서버 (AWS EC2 배포)
@@ -51,5 +53,5 @@ pill-addict/
  ├── data/
  │   └── sample_health_check.png
  ├── requirements.txt
- └── README.md 
-`````
+ └── README.md
+\`\`\`
